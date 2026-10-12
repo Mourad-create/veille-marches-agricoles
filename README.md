@@ -18,7 +18,7 @@ Collecte (Python) → Préparation (Python / pandas) → Base PostgreSQL (modèl
 | 3. Préparation / ETL | `03_Preparation_donnees/` | Fait |
 | 4. Base PostgreSQL | `04_Base_PostgreSQL/` | Fait (schéma + chargement) |
 | 5. Indicateurs SQL | `05_KPI_SQL/` | Fait (10 vues) |
-| 6. Restitution Power BI | — | À venir |
+| 6. Restitution Power BI | `06_Restitution_PowerBI/` | Fait (4 pages : Direction, Produits, Prix, Pays) |
 | 7. Documentation (dictionnaire, guide utilisateur) | — | À venir |
 | 8. Analyse et recommandations | — | À venir |
 
