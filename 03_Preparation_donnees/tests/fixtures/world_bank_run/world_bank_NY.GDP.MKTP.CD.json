@@ -1,0 +1,42 @@
+[
+  {
+    "page": 1,
+    "pages": 1,
+    "per_page": 50,
+    "total": 3,
+    "sourceid": "2",
+    "lastupdated": "2026-06-15"
+  },
+  [
+    {
+      "indicator": {"id": "NY.GDP.MKTP.CD", "value": "PIB (US$ courants)"},
+      "country": {"id": "BJ", "value": "Benin"},
+      "countryiso3code": "BEN",
+      "date": "2023",
+      "value": 19640000000,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {"id": "NY.GDP.MKTP.CD", "value": "PIB (US$ courants)"},
+      "country": {"id": "BJ", "value": "Benin"},
+      "countryiso3code": "BEN",
+      "date": "2022",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": {"id": "NY.GDP.MKTP.CD", "value": "PIB (US$ courants)"},
+      "country": {"id": "ZZ", "value": "Pays hors périmètre"},
+      "countryiso3code": "ZZZ",
+      "date": "2023",
+      "value": 123,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    }
+  ]
+]

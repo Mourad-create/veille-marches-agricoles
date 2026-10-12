@@ -1,0 +1,6 @@
+requests>=2.31
+pandas>=2.0
+
+# Dépendances de test uniquement
+pytest>=8.0
+responses>=0.25
