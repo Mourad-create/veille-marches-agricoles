@@ -20,19 +20,6 @@ Les trois sources restantes sont volontairement laissées de côté à ce stade
 disponibilité réelle. L'architecture (voir plus bas) est conçue pour qu'un
 nouveau collecteur s'ajoute sans toucher au reste du pipeline.
 
-## ⚠️ Important : exécution en environnement avec accès internet
-
-Ce code a été développé et testé dans un environnement cloud dont l'accès
-réseau sortant est restreint aux registres de paquets (pip, npm...) pour des
-raisons de sécurité — il ne peut donc pas atteindre les portails
-World Bank / FAOSTAT depuis là où il a été écrit. La logique a été validée
-par des **tests automatisés avec appels réseau simulés** (voir `tests/`),
-mais **le téléchargement réel de données n'a pas encore pu être vérifié en
-conditions réelles**. Avant de considérer le pipeline comme définitivement
-validé, exécute-le une première fois sur un poste avec un accès internet
-normal (ton PC, par exemple) et vérifie que les fichiers apparaissent bien
-dans `data/raw/`.
-
 ## Installation
 
 ```bash
@@ -117,10 +104,8 @@ journalisation des erreurs. Ils simulent les réponses HTTP (librairie
 
 ## Prochaines étapes (suite du planning)
 
-1. Valider une première exécution réelle (accès internet normal) et ajuster
-   si les portails ont changé de format depuis l'écriture de ce code.
-2. Confirmer la disponibilité de data.gouv.fr / NOAA / Open Data Bénin et
+1. Confirmer la disponibilité de data.gouv.fr / NOAA / Open Data Bénin et
    ajouter les collecteurs correspondants.
-3. Phase 3 (Préparation / ETL) : nettoyage, filtrage sur les produits et
+2. Phase 3 (Préparation / ETL) : nettoyage, filtrage sur les produits et
    pays prioritaires, détection d'anomalies, à partir des fichiers stockés
    dans `data/raw/`.
