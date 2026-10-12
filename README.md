@@ -20,7 +20,7 @@ Collecte (Python) → Préparation (Python / pandas) → Base PostgreSQL (modèl
 | 5. Indicateurs SQL | `05_KPI_SQL/` | Fait (10 vues) |
 | 6. Restitution Power BI | `06_Restitution_PowerBI/` | Fait (4 pages : Direction, Produits, Prix, Pays) |
 | 7. Documentation (dictionnaire, guide utilisateur) | `07_Documentation/` | Fait |
-| 8. Analyse et recommandations | `08_Analyse_recommandations/` | Requêtes prêtes, analyse à compléter avec les résultats |
+| 8. Analyse et recommandations | `08_Analyse_recommandations/` | Fait (analyse chiffrée, 9 constats, 6 recommandations) |
 
 Chaque dossier contient son propre `README.md` (installation, utilisation, tests).
 
